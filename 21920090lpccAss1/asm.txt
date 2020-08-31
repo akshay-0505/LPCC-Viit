@@ -1,0 +1,7 @@
+JOHN   START     200
+       MOVER     AREG, ='3'    201
+       MOVEM     AREG, X       202
+L1     MOVER     BREG, ='2'    203
+       LTORG                   204
+X      DS        1             205
+       END                     206
